@@ -4,7 +4,7 @@ It is a live scraping tool that scrapes data of active researchers from IIT, III
 ## Dependencies :
 This project uses following python module and libraries.(use `pip` to install) : 
 * `Selenium`
-* `Webdriver For Selenium` (Here we're using chromedrive version **98.xx.xx** according to our chrome version) `https://chromedriver.chromium.org/downloads`
+* `Webdriver For Selenium` (Here we're using chromedrive version **98.xx.xx** according to our chrome version) 
 * `html5lib`
 * `bs4`
 * `requests`
@@ -12,7 +12,7 @@ This project uses following python module and libraries.(use `pip` to install) :
 ## Steps :
 1. Install Python 3.10 from the given link `https://www.python.org/downloads/`
 2. Install all the dependencies mentioned above using the command `pip install [MODULENAME] in your CMD`
-3. Install the chromedriver for suitable version of installed chrome in the OS from the link given above 
+3. Install the chromedriver for suitable version of installed chrome in the OS from the link: `https://chromedriver.chromium.org/downloads`
 4. Use any python interpreter to run the code, here we are using **VS CODE**
 5. Open the terminal in the product directory and run the command `python manage.py runserver`
 6. Once your server is started go to your browser and enter the URL `http://127.0.0.1:8000/`
